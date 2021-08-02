@@ -8,7 +8,8 @@ Instale todas dependencias com o comando:
   
 Execute o comando para retornar o resultado final:  
   'python caseff.py' 
-  -TEMPO Médio por execução : 1 minuto e 30 segundos.
+  
+  TEMPO Médio por execução : 1 minuto e 30 segundos.
     
     
 - Resultado Final:
