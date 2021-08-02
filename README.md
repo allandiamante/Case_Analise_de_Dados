@@ -17,7 +17,14 @@ Caso o usuário utilize Jupyter-Notebook, tem a opção tambem de abrir dentro d
 Arquivo: 'CaseFF.ipynb'
 
 Execute de forma sequencial para não ocorrer nenhum erro.
-    
+
+
+------------------------------------------------------------------
+Possiveis "erros", como foi utilizado web-scraping com a biblioteca 
+_selenium,  pode ser que sua maquina requisite a configuração nas variaveis de ambiente
+sendo assim siga as instruções desse site : 'https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path'
+
+
 ------------------------------------------------------------------
 - Resultado Final:
 
