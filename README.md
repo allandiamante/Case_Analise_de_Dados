@@ -7,7 +7,7 @@ Instale todas dependencias com o comando:
   'pip install -r requirements.txt'
   
 Execute o comando para retornar o resultado final:  
-  'python caseff.py'
+  'python caseff.py' 
   -TEMPO Médio por execução : 1 minuto e 30 segundos.
     
     
