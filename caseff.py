@@ -222,7 +222,7 @@ def cria_lista_final(lista_semifinal):
         #Função que retorna pc e convertido por municipio
         pc = ((merge_idhm_celular_2.loc[i]['idhm']/1000)**merge_idhm_celular_2.loc[i]['cp']) * (((merge_idhm_celular_2.loc[i]['pop_municipio']/(merge_idhm_celular_2.loc[i]['densidade']/10000)*(merge_idhm_celular_2.loc[i]['pos_pago'] / merge_idhm_celular_2.loc[i]['cel']))/(merge_idhm_celular_2.loc[i]['pop_municipio']))/1.5) * 100
         list_pc_final.append(pc)
-        list_convertido.append((pc/100)*merge_idhm_celular_2.loc[i]['pop_municipio'])
+        list_convertido.append(int((pc/100)*merge_idhm_celular_2.loc[i]['pop_municipio']))
     return list_pc_final, list_convertido
     
 lista_pc, list_convertido = cria_lista_final(merge_idhm_celular_2)    
