@@ -424,3 +424,11 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1627869896921	Marionette	INFO	Listening on port 50598
 1627869897105	Marionette	WARN	TLS certificate errors will be ignored for this session
 1627869924625	Marionette	INFO	Stopped listening on port 50598
+1627871051148	geckodriver	INFO	Listening on 127.0.0.1:63057
+1627871054192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Allan\\AppData\\Local\\Temp\\rust_mozprofileCJUZUB"
+*** You are running in headless mode.
+1627871054629	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Allan\\AppData\\Local\\Temp\\rust_mozprofileCJUZUB\\search.json.mozlz4", (void 0)))
+1627871055985	Marionette	INFO	Listening on port 63066
+1627871056265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627871083533	Marionette	INFO	Stopped listening on port 63066
